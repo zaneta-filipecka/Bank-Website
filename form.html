@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Ankieta</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="menu">
+                <div>
+                    <a href="index.html">
+                        <img src="bs.png" alt="Bank Spółdzielczy" />
+                    </a>
+                </div>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="./index.html"> Strona główna </a>
+                        </li>
+                        <li>
+                            <a href="./client-login.html"> Dla klienta </a>
+                        </li>
+                        <li>
+                            <a href="./admin-login.html"> Dla administratora </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <h1 class="form">Ankieta</h1>
+    <div class="container">
+        <form>
+            <p><b>1. Moja płeć:</b></p>
+            <label><input type="radio" name="plec" value="wartość" checked>kobieta</label> <br/>
+            <label><input type="radio" name="plec" value="wartość">mężczyzna</label> <br/>
+        </form>
+        <form>
+            <p><b>2. Mój wiek:</b></p>
+            <label><input type="radio" name="wiek" value="wartość" checked>18-25</label> <br/>
+            <label><input type="radio" name="wiek" value="wartość">26-35</label> <br/>
+            <label><input type="radio" name="wiek" value="wartość">36-45</label> <br/>
+            <label><input type="radio" name="wiek" value="wartość">46-55</label> <br/>
+            <label><input type="radio" name="wiek" value="wartość">56-65</label> <br/>
+            <label><input type="radio" name="wiek" value="wartość">66-75</label> <br/>
+            <label><input type="radio" name="wiek" value="wartość">76-85</label> <br/>
+            <label><input type="radio" name="wiek" value="wartość">86-95</label> <br/>
+            <label><input type="radio" name="wiek" value="wartość">96-100</label> <br/>
+        </form>
+        <form>
+            <p><b>3. Miesięczne zarobki:</b></p>
+            <label><input type="radio" name="zarobki" value="wartość" checked><=1499</label> <br/>
+            <label><input type="radio" name="zarobki" value="wartość">1500-2499</label> <br/>
+            <label><input type="radio" name="zarobki" value="wartość">2500-3499</label> <br/>
+            <label><input type="radio" name="zarobki" value="wartość">3500-4499</label> <br/>
+            <label><input type="radio" name="zarobki" value="wartość">4500-5499</label> <br/>
+            <label><input type="radio" name="zarobki" value="wartość">5500-6499</label> <br/>
+            <label><input type="radio" name="zarobki" value="wartość">6500-7499</label> <br/>
+            <label><input type="radio" name="zarobki" value="wartość">7500-8499</label> <br/>
+            <label><input type="radio" name="zarobki" value="wartość">8500-9499</label> <br/>
+            <label><input type="radio" name="zarobki" value="wartość">9500-9999</label> <br/>
+            <label><input type="radio" name="zarobki" value="wartość">>=10 000</label> <br/>
+        </form>
+        <form>
+            <p><b>4. Szacowane miesięczne wydatki:</b></p>
+            <label><input type="radio" name="wydatki" value="wartość" checked><=1499</label> <br/>
+            <label><input type="radio" name="wydatki" value="wartość">1500-2499</label> <br/>
+            <label><input type="radio" name="wydatki" value="wartość">2500-3499</label> <br/>
+            <label><input type="radio" name="wydatki" value="wartość">3500-4499</label> <br/>
+            <label><input type="radio" name="wydatki" value="wartość">4500-5499</label> <br/>
+            <label><input type="radio" name="wydatki" value="wartość">5500-6499</label> <br/>
+            <label><input type="radio" name="wydatki" value="wartość">6500-7499</label> <br/>
+            <label><input type="radio" name="wydatki" value="wartość">7500-8499</label> <br/>
+            <label><input type="radio" name="wydatki" value="wartość">8500-9499</label> <br/>
+            <label><input type="radio" name="wydatki" value="wartość">9500-9999</label> <br/>
+            <label><input type="radio" name="wydatki" value="wartość">>=10 000</label> <br/>
+        </form>
+        <form>
+            <p><b>5. Najwięcej wydaję na: (zaznacz maksymalnie 3)</b></p>
+            <label><input type="checkbox" name="wydatki" value="wartość">Jedzenie</label> <br/>
+            <label><input type="checkbox" name="wydatki" value="wartość">Mieszkanie (np. kredyt, czynsz)</label> <br/>
+            <label><input type="checkbox" name="wydatki" value="wartość">Inne opłaty i rachunki</label> <br/>
+            <label><input type="checkbox" name="wydatki" value="wartość">Zdrowie, higiena i chemia</label> <br/>
+            <label><input type="checkbox" name="wydatki" value="wartość">Ubrania</label> <br/>
+            <label><input type="checkbox" name="wydatki" value="wartość">Relaks (np. kino, teatr, książki, hobby)</label> <br/>
+            <label><input type="checkbox" name="wydatki" value="wartość">Transport (np. bilety, paliwo)</label> <br/>
+            <label><input type="checkbox" name="wydatki" value="wartość">Inne wydatki <input type="text" name="wydatki" /> </label> <br/>
+        </form>
+        <div class="buttons">
+            <a href="./thanks.html">
+                <button class="btn">Wyślij</button>
+            </a>
+            <a href="./client.html">
+                <button class="btn">Anuluj</button>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
