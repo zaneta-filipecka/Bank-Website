@@ -64,7 +64,7 @@ header .menu nav ul li {
 }
 
 img {
-    max-height: 100px;
+    max-height: 400px;
 }
 
 .news {
@@ -130,6 +130,14 @@ tr {
 }
 
 .image {
-    width: 400px;
+    width: 600px;
     height: 400px;
+}
+
+.login {
+    padding-bottom: 8px;
+}
+
+.password {
+    padding-bottom: 8px;
 }
