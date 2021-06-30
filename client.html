@@ -32,11 +32,63 @@
             </div>
         </div>
     </header>
+    <script>
+        function op(obj){
+            x=document.getElementById(obj);
+            if(x.style.display == "none") x.style.display = "block";
+            else x.style.display = "none"
+        }
+    </script>
     <div class="container">
         <a href="./form.html">
-            <button>Ankieta</button>
+            <button class="btn">Ankieta</button>
         </a>
-        
+        <p class="amount"><b>365,21 zł</b></p>
+        <div class="buttons">
+            <a href="./transfer-client.html">
+                <button class="btn">Przelew</button>
+            </a>
+            <a href="/" onClick="op('hist'); return false;"><button class="btn">Historia</button></a>
+        </div>
+        <div id="hist" style="display: none;">
+            <table>
+                <tr>
+                    <td><b>Data operacji</b></td>
+                    <td><b>Tytułem</b></td>
+                    <td><b>Kwota</b></td>
+                </tr>
+                <tr>
+                    <td>20.06.2021</td>
+                    <td>Wypłata z bankomatu</td>
+                    <td>-1 000,00 zł</td>
+                </tr>
+                <tr>
+                    <td>18.06.2021</td>
+                    <td>Zakup przy użyciu karty</td>
+                    <td>-57,85 zł</td>
+                </tr>
+                <tr>
+                    <td>18.06.2021</td>
+                    <td>Przelew</td>
+                    <td>- 258,34 zł</td>
+                </tr>
+                <tr>
+                    <td>10.06.2021</td>
+                    <td>Wypłata</td>
+                    <td>2 100,00 zł</td>
+                </tr>
+                <tr>
+                    <td>09.06.2021</td>
+                    <td>Doładowanie telefonu</td>
+                    <td>-25,00 zł</td>
+                </tr>
+                <tr>
+                    <td>01.06.2021</td>
+                    <td>Przelew</td>
+                    <td>200 zł</td>
+                </tr>
+            </table>
+        </div>
     </div>
 </body>
 </html>

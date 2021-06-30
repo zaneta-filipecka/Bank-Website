@@ -32,11 +32,94 @@
             </div>
         </div>
     </header>
+    <script>
+        function op(obj){
+            x=document.getElementById(obj);
+            if(x.style.display == "none") x.style.display = "block";
+            else x.style.display = "none"
+        }
+    </script>
+    <style> td {border: 0;}</style>
     <div class="container">
         <a href="./survey-results.html">
-            <button>Wyniki ankiety</button>
+            <button class="btn">Wyniki ankiety</button>
         </a>
-        
+        <p class="amount"><b>3 258 628,21 zł</b></p>
+        <div class="buttons">
+            <a href="./transfer.html">
+                <button class="btn">Przelew</button>
+            </a>
+            <a href="/" onClick="op('hist'); return false;"><button class="btn">Historia</button></a>
+        </div>
+        <div id="hist" style="display: none;">
+            <table>
+                <tr>
+                    <td><b>Data operacji</b></td>
+                    <td><b>Tytułem</b></td>
+                    <td><b>Kwota</b></td>
+                </tr>
+                <tr>
+                    <td>20.06.2021</td>
+                    <td>Wypłata kapitału</td>
+                    <td>-500 000 zł</td>
+                </tr>
+                <tr>
+                    <td>20.06.2021</td>
+                    <td>Załadowanie bankomatu</td>
+                    <td>-100 000 zł</td>
+                </tr>
+                <tr>
+                    <td>20.06.2021</td>
+                    <td>Rozliczenie bankomatu</td>
+                    <td>57 000 zł</td>
+                </tr>
+                <tr>
+                    <td>20.06.2021</td>
+                    <td>Rozliczenie BPS</td>
+                    <td>1 500 000 zł</td>
+                </tr>
+                <tr>
+                    <td>20.06.2021</td>
+                    <td>Przelewy przychodzące</td>
+                    <td>28 000 zł</td>
+                </tr>
+                <tr>
+                    <td>20.06.2021</td>
+                    <td>Przelewy wychodzące</td>
+                    <td>-15 000 zł</td>
+                </tr>
+                <tr>
+                    <td>19.06.2021</td>
+                    <td>Wypłata kapitału</td>
+                    <td>-800 000 zł</td>
+                </tr>
+                <tr>
+                    <td>19.06.2021</td>
+                    <td>Załadowanie bankomatu</td>
+                    <td>-100 000 zł</td>
+                </tr>
+                <tr>
+                    <td>19.06.2021</td>
+                    <td>Rozliczenie bankomatu</td>
+                    <td>64 000 zł</td>
+                </tr>
+                <tr>
+                    <td>19.06.2021</td>
+                    <td>Rozliczenie BPS</td>
+                    <td>2 000 000 zł</td>
+                </tr>
+                <tr>
+                    <td>19.06.2021</td>
+                    <td>Przelewy przychodzące</td>
+                    <td>10 000 zł</td>
+                </tr>
+                <tr>
+                    <td>19.06.2021</td>
+                    <td>Przelewy wychodzące</td>
+                    <td>-18 000 zł</td>
+                </tr>
+            </table>
+        </div>
     </div>
 </body>
 </html>

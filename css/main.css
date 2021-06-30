@@ -95,3 +95,41 @@ img {
     justify-content: center;
 }
 
+.transfer {
+    display: flex;
+    justify-content: right;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 16px;
+}
+
+.lab {
+    width: 100%;
+    margin-left: 8px;
+}
+
+.amount {
+    color: steelblue;
+    font-size: 30px;
+    display: flex;
+    justify-content: right;
+}
+
+button {
+    background-color: steelblue;
+    color: white;
+    height: 30px;
+}
+
+table {
+    width: 100%;
+}
+
+tr {
+    width: 100%;
+}
+
+.image {
+    width: 400px;
+    height: 400px;
+}
